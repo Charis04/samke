@@ -1,0 +1,26 @@
+
+	---USER REPORT---
+
+Total number of users: 3
+Total number of tasks: 3
+
+User: admin
+	Total tasks assigned: 1
+	Percentage of tasks assigned: 33.33%
+	Percentage of completed tasks: 100.00%
+	Percentage of uncompleted tasks: 0.00%
+	Percentage of overdue tasks: 0.00%
+
+User: charis
+	Total tasks assigned: 1
+	Percentage of tasks assigned: 33.33%
+	Percentage of completed tasks: 0.00%
+	Percentage of uncompleted tasks: 100.00%
+	Percentage of overdue tasks: 0.00%
+
+User: samke
+	Total tasks assigned: 1
+	Percentage of tasks assigned: 33.33%
+	Percentage of completed tasks: 0.00%
+	Percentage of uncompleted tasks: 100.00%
+	Percentage of overdue tasks: 0.00%

@@ -1,0 +1,43 @@
+fix endless loop in user registration
+fix indentation for initialize_files function
+create main function as entry point of program and move to the top
+stop loading users and tasks in begining of program and load them when needed
+remove complete_task and search_task functions as they are no more necessary
+remove complete_task and search_task from main menu
+remove view_tasks function and create view_all and view_mine functions
+create print_task function to handle printing each task
+allow user to select task in view_mine
+allow user to mark task as complete in view_mine
+allow user to edit username or due date in view_mine
+create get_target function for editing tasks
+create generate_report function
+create generete_task_report function
+create generete_user_report function
+
+
+
+
+
+elif choice == 's':
+            search_tasks(tasks)
+        elif choice == 'c':
+            complete_task(tasks)
+
+
+def complete_task(task_list):
+    """Mark a task as completed."""
+    task_title = input("Enter the title of the task to complete: ")
+    for task in task_list:
+        if task['title'] == task_title:
+            task['completed'] = True
+            save_tasks(task_list)
+            print("Task marked as completed.")
+            return
+    print("Task not found.")
+
+
+def search_tasks(task_list):
+    """Search for tasks by username or title."""
+    term = input("Enter username or task title to search: ")
+    found_tasks = [t for t in task_list if t['username'] == term or t['title'] == term]
+    view_tasks(found_tasks)
