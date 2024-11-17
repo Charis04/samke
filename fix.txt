@@ -13,6 +13,7 @@ create get_target function for editing tasks
 create generate_report function
 create generete_task_report function
 create generete_user_report function
+create display_statistics function
 
 
 
